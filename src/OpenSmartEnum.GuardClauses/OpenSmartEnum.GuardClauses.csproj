@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	
+	<PropertyGroup>
+		<PackageId>OpenSmartEnum.GuardClauses</PackageId>
+		<Title>OpenSmartEnum.GuardClauses</Title>
+		<Description>Guard clauses for OpenSmartEnum.</Description>
+		<Summary>Guard clauses for OpenSmartEnum.</Summary>
+		<PackageTags>enum;smartenum;guard;guardclauses</PackageTags>
+		<PackageReleaseNotes>
+      The change log and breaking changes are listed here.
+      https://github.com/bandoyer/OpenSmartEnum/blob/main/CHANGELOG.md
+    </PackageReleaseNotes>
+		<AssemblyName>OpenSmartEnum.GuardClauses</AssemblyName>
+		<RootNamespace>OpenSmartEnum.GuardClauses</RootNamespace>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+	<ItemGroup>
+	  <PackageReference Include="OpenGuardClauses" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\OpenSmartEnum\OpenSmartEnum.csproj" />
+	</ItemGroup>
+</Project>

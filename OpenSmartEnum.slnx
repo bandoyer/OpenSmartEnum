@@ -1,0 +1,43 @@
+<Solution>
+  <Folder Name="/benchmarks/">
+    <Project Path="benchmarks/OpenSmartEnum.Benchmarks/OpenSmartEnum.Benchmarks.csproj" />
+  </Folder>
+  <Folder Name="/Solution/">
+    <File Path=".editorconfig" />
+    <File Path=".gitignore" />
+    <File Path="CHANGELOG.md" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+    <File Path="LICENSE" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/OpenSmartEnum.AutoFixture/OpenSmartEnum.AutoFixture.csproj" />
+    <Project Path="src/OpenSmartEnum.Dapper/OpenSmartEnum.Dapper.csproj" />
+    <Project Path="src/OpenSmartEnum.EFCore/OpenSmartEnum.EFCore.csproj" />
+    <Project Path="src/OpenSmartEnum.GuardClauses/OpenSmartEnum.GuardClauses.csproj" />
+    <Project Path="src/OpenSmartEnum.JsonNet/OpenSmartEnum.JsonNet.csproj" />
+    <Project Path="src/OpenSmartEnum.MessagePack/OpenSmartEnum.MessagePack.csproj" />
+    <Project Path="src/OpenSmartEnum.ModelBinding/OpenSmartEnum.ModelBinding.csproj" />
+    <Project Path="src/OpenSmartEnum.ProtoBufNet/OpenSmartEnum.ProtoBufNet.csproj" />
+    <Project Path="src/OpenSmartEnum.SystemTextJson/OpenSmartEnum.SystemTextJson.csproj" />
+    <Project Path="src/OpenSmartEnum.Utf8Json/OpenSmartEnum.Utf8Json.csproj" />
+    <Project Path="src/OpenSmartEnum/OpenSmartEnum.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="test/OpenSmartEnum.AutoFixture.UnitTests/OpenSmartEnum.AutoFixture.UnitTests.csproj" />
+    <Project Path="test/OpenSmartEnum.Dapper.UnitTests/OpenSmartEnum.Dapper.UnitTests.csproj" />
+    <Project Path="test/OpenSmartEnum.GuardClauses.UnitTests/OpenSmartEnum.GuardClauses.UnitTests.csproj" />
+    <Project Path="test/OpenSmartEnum.JsonNet.UnitTests/OpenSmartEnum.JsonNet.UnitTests.csproj" />
+    <Project Path="test/OpenSmartEnum.MessagePack.UnitTests/OpenSmartEnum.MessagePack.UnitTests.csproj" />
+    <Project Path="test/OpenSmartEnum.ProtoBufNet.UnitTests/OpenSmartEnum.ProtoBufNet.UnitTests.csproj" />
+    <Project Path="test/OpenSmartEnum.SystemTextJson.UnitTests/OpenSmartEnum.SystemTextJson.UnitTests.csproj" />
+    <Project Path="test/OpenSmartEnum.UnitTests/OpenSmartEnum.UnitTests.csproj" />
+    <Project Path="test/OpenSmartEnum.Utf8Json.UnitTests/OpenSmartEnum.Utf8Json.UnitTests.csproj" />
+    <Project Path="test/OpenSmartFlagEnum.UnitTests/OpenSmartFlagEnum.UnitTests.csproj" />
+  </Folder>
+  <Folder Name="/tests/IntegrationTests/">
+    <Project Path="test/OpenSmartEnum.Dapper.IntegrationTests/OpenSmartEnum.Dapper.IntegrationTests.csproj" />
+    <Project Path="test/OpenSmartEnum.EFCore.IntegrationTests/OpenSmartEnum.EFCore.IntegrationTests.csproj" />
+  </Folder>
+</Solution>

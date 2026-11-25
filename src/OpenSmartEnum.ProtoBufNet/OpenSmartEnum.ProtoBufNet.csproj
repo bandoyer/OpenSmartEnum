@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<PackageId>OpenSmartEnum.ProtoBufNet</PackageId>
+		<Title>OpenSmartEnum.ProtoBufNet</Title>
+		<Description>protobuf-net (de)serialization support for OpenSmartEnum.</Description>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<Summary>protobuf-net (de)serialization support for OpenSmartEnum.</Summary>
+		<PackageTags>enum;smartenum;protobuf;protobufnet;surrogate</PackageTags>
+		<PackageReleaseNotes>
+      The change log and breaking changes are listed here.
+      https://github.com/bandoyer/OpenSmartEnum/blob/main/CHANGELOG.md
+    </PackageReleaseNotes>
+		<AssemblyName>OpenSmartEnum.ProtoBufNet</AssemblyName>
+		<RootNamespace>OpenSmartEnum.ProtoBufNet</RootNamespace>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="protobuf-net" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\OpenSmartEnum\OpenSmartEnum.csproj" />
+	</ItemGroup>
+</Project>

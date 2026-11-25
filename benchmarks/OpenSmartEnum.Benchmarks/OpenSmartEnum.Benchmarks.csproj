@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <IsPackable>false</IsPackable>
+    <LangVersion>7.3</LangVersion>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" />
+    <PackageReference Include="Constant" />
+    <PackageReference Include="Enums.NET" />
+    <ProjectReference Include="..\..\src\OpenSmartEnum.MessagePack\OpenSmartEnum.MessagePack.csproj" />
+    <ProjectReference Include="..\..\src\OpenSmartEnum\OpenSmartEnum.csproj" />
+    <ProjectReference Include="..\..\src\OpenSmartEnum.JsonNet\OpenSmartEnum.JsonNet.csproj" />
+    <ProjectReference Include="..\..\src\OpenSmartEnum.Utf8Json\OpenSmartEnum.Utf8Json.csproj" />
+    <ProjectReference Include="..\..\src\OpenSmartEnum.ProtoBufNet\OpenSmartEnum.ProtoBufNet.csproj" />
+  </ItemGroup>
+</Project>

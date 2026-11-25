@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <PackageId>OpenSmartEnum.SystemTextJson</PackageId>
+        <Title>OpenSmartEnum.SystemTextJson</Title>
+        <Description>System.Text.Json (de)serialization support for OpenSmartEnum.</Description>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <Summary>System.Text.Json (de)serialization support for OpenSmartEnum.</Summary>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageTags>enum;smartenum;netstandard2.0;json;system.text.json;converter</PackageTags>
+		    <PackageReleaseNotes>
+      The change log and breaking changes are listed here.
+      https://github.com/bandoyer/OpenSmartEnum/blob/main/CHANGELOG.md
+    </PackageReleaseNotes>
+        <AssemblyName>OpenSmartEnum.SystemTextJson</AssemblyName>
+        <RootNamespace>OpenSmartEnum.SystemTextJson</RootNamespace>
+    </PropertyGroup>
+    <ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+        <PackageReference Include="System.Text.Json" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\OpenSmartEnum\OpenSmartEnum.csproj" />
+    </ItemGroup>
+</Project>

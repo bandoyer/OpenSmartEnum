@@ -1,9 +1,6 @@
-[![NuGet](https://img.shields.io/nuget/v/Ardalis.SmartEnum.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum)[![NuGet](https://img.shields.io/nuget/dt/Ardalis.SmartEnum.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum)
-![Last Publish Ardalis.SmartEnum to NuGet](https://github.com/ardalis/SmartEnum/workflows/publish%20Ardalis.SmartEnum%20to%20nuget/badge.svg)
+[![NuGet](https://img.shields.io/nuget/v/OpenSmartEnum.svg)](https://www.nuget.org/packages/OpenSmartEnum) [![NuGet](https://img.shields.io/nuget/dt/OpenSmartEnum.svg)](https://www.nuget.org/packages/OpenSmartEnum)
 
-## Announcement!
-
-Ardalis.SmartEnum is moving to a commercial license. [Tell me more](https://nimbletools.io/news/ardalis-nuget-packages/)
+OpenSmartEnum continues OpenSmartEnum under the MIT license. To move a project from OpenSmartEnum 8.x or 9.0.0, follow the migration at the top of [CHANGELOG.md](CHANGELOG.md).
 
 ## Table Of Contents
 
@@ -41,25 +38,25 @@ Ardalis.SmartEnum is moving to a commercial license. [Tell me more](https://nimb
 
 ### Sub-packages
 
-SmartEnum.AutoFixture: [![NuGet](https://img.shields.io/nuget/v/Ardalis.SmartEnum.AutoFixture.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.AutoFixture)[![NuGet](https://img.shields.io/nuget/dt/Ardalis.SmartEnum.AutoFixture.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.AutoFixture)![publish SmartEnum.AutoFixture to nuget](https://github.com/ardalis/SmartEnum/workflows/publish%20SmartEnum.AutoFixture%20to%20nuget/badge.svg)
+SmartEnum.AutoFixture: [![NuGet](https://img.shields.io/nuget/v/OpenSmartEnum.AutoFixture.svg)](https://www.nuget.org/packages/OpenSmartEnum.AutoFixture)[![NuGet](https://img.shields.io/nuget/dt/OpenSmartEnum.AutoFixture.svg)](https://www.nuget.org/packages/OpenSmartEnum.AutoFixture)
 
-SmartEnum.Dapper: [![NuGet](https://img.shields.io/nuget/v/Ardalis.SmartEnum.Dapper.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.Dapper)[![NuGet](https://img.shields.io/nuget/dt/Ardalis.SmartEnum.Dapper.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.Dapper)![publish SmartEnum.Dapper to nuget](https://github.com/ardalis/SmartEnum/workflows/publish%20SmartEnum.Dapper%20to%20nuget/badge.svg)
+SmartEnum.Dapper: [![NuGet](https://img.shields.io/nuget/v/OpenSmartEnum.Dapper.svg)](https://www.nuget.org/packages/OpenSmartEnum.Dapper)[![NuGet](https://img.shields.io/nuget/dt/OpenSmartEnum.Dapper.svg)](https://www.nuget.org/packages/OpenSmartEnum.Dapper)
 
-SmartEnum.EFCore: [![NuGet](https://img.shields.io/nuget/v/Ardalis.SmartEnum.EFCore.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.EFCore)[![NuGet](https://img.shields.io/nuget/dt/Ardalis.SmartEnum.EFCore.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.EFCore)![publish SmartEnum.EFCore to nuget](https://github.com/ardalis/SmartEnum/workflows/publish%20SmartEnum.EFCore%20to%20nuget/badge.svg)
+SmartEnum.EFCore: [![NuGet](https://img.shields.io/nuget/v/OpenSmartEnum.EFCore.svg)](https://www.nuget.org/packages/OpenSmartEnum.EFCore)[![NuGet](https://img.shields.io/nuget/dt/OpenSmartEnum.EFCore.svg)](https://www.nuget.org/packages/OpenSmartEnum.EFCore)
 
-SmartEnum.GuardClauses: [![NuGet](https://img.shields.io/nuget/v/Ardalis.SmartEnum.GuardClauses.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.GuardClauses)[![NuGet](https://img.shields.io/nuget/dt/Ardalis.SmartEnum.GuardClauses.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.GuardClauses)![publish SmartEnum.GuardClauses to nuget](https://github.com/ardalis/SmartEnum/workflows/publish%20SmartEnum.GuardClauses%20to%20nuget/badge.svg)
+SmartEnum.GuardClauses: [![NuGet](https://img.shields.io/nuget/v/OpenSmartEnum.GuardClauses.svg)](https://www.nuget.org/packages/OpenSmartEnum.GuardClauses)[![NuGet](https://img.shields.io/nuget/dt/OpenSmartEnum.GuardClauses.svg)](https://www.nuget.org/packages/OpenSmartEnum.GuardClauses)
 
-SmartEnum.JsonNet: [![NuGet](https://img.shields.io/nuget/v/Ardalis.SmartEnum.JsonNet.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.JsonNet)[![NuGet](https://img.shields.io/nuget/dt/Ardalis.SmartEnum.JsonNet.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.JsonNet)![publish jsonnet to nuget](https://github.com/ardalis/SmartEnum/workflows/publish%20SmartEnum.JsonNet%20to%20nuget/badge.svg)
+SmartEnum.JsonNet: [![NuGet](https://img.shields.io/nuget/v/OpenSmartEnum.JsonNet.svg)](https://www.nuget.org/packages/OpenSmartEnum.JsonNet)[![NuGet](https://img.shields.io/nuget/dt/OpenSmartEnum.JsonNet.svg)](https://www.nuget.org/packages/OpenSmartEnum.JsonNet)
 
-SmartEnum.MessagePack: [![NuGet](https://img.shields.io/nuget/v/Ardalis.SmartEnum.MessagePack.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.MessagePack)[![NuGet](https://img.shields.io/nuget/dt/Ardalis.SmartEnum.MessagePack.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.MessagePack)![publish SmartEnum.MessagePack to nuget](https://github.com/ardalis/SmartEnum/workflows/publish%20SmartEnum.MessagePack%20to%20nuget/badge.svg)
+SmartEnum.MessagePack: [![NuGet](https://img.shields.io/nuget/v/OpenSmartEnum.MessagePack.svg)](https://www.nuget.org/packages/OpenSmartEnum.MessagePack)[![NuGet](https://img.shields.io/nuget/dt/OpenSmartEnum.MessagePack.svg)](https://www.nuget.org/packages/OpenSmartEnum.MessagePack)
 
-SmartEnum.ModelBinding: [![NuGet](https://img.shields.io/nuget/v/Ardalis.SmartEnum.ModelBinding.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.ModelBinding)[![NuGet](https://img.shields.io/nuget/dt/Ardalis.SmartEnum.ModelBinding.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.ModelBinding)![publish Ardalis.SmartEnum.ModelBinding to nuget](https://github.com/ardalis/SmartEnum/workflows/publish%20Ardalis.SmartEnum.ModelBinding%20to%20nuget/badge.svg)
+SmartEnum.ModelBinding: [![NuGet](https://img.shields.io/nuget/v/OpenSmartEnum.ModelBinding.svg)](https://www.nuget.org/packages/OpenSmartEnum.ModelBinding)[![NuGet](https://img.shields.io/nuget/dt/OpenSmartEnum.ModelBinding.svg)](https://www.nuget.org/packages/OpenSmartEnum.ModelBinding)
 
-SmartEnum.ProtoBufNet: [![NuGet](https://img.shields.io/nuget/v/Ardalis.SmartEnum.ProtoBufNet.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.ProtoBufNet)[![NuGet](https://img.shields.io/nuget/dt/Ardalis.SmartEnum.ProtoBufNet.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.ProtoBufNet)![publish SmartEnum.ProtoBufNet to nuget](https://github.com/ardalis/SmartEnum/workflows/publish%20SmartEnum.ProtoBufNet%20to%20nuget/badge.svg)
+SmartEnum.ProtoBufNet: [![NuGet](https://img.shields.io/nuget/v/OpenSmartEnum.ProtoBufNet.svg)](https://www.nuget.org/packages/OpenSmartEnum.ProtoBufNet)[![NuGet](https://img.shields.io/nuget/dt/OpenSmartEnum.ProtoBufNet.svg)](https://www.nuget.org/packages/OpenSmartEnum.ProtoBufNet)
 
-SmartEnum.SystemTextJson: [![NuGet](https://img.shields.io/nuget/v/Ardalis.SmartEnum.SystemTextJson.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.SystemTextJson)[![NuGet](https://img.shields.io/nuget/dt/Ardalis.SmartEnum.SystemTextJson.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.SystemTextJson)![publish SmartEnum.SystemTextJson to nuget](https://github.com/ardalis/SmartEnum/workflows/publish%20SmartEnum.SystemTextJson%20to%20nuget/badge.svg)
+SmartEnum.SystemTextJson: [![NuGet](https://img.shields.io/nuget/v/OpenSmartEnum.SystemTextJson.svg)](https://www.nuget.org/packages/OpenSmartEnum.SystemTextJson)[![NuGet](https://img.shields.io/nuget/dt/OpenSmartEnum.SystemTextJson.svg)](https://www.nuget.org/packages/OpenSmartEnum.SystemTextJson)
 
-SmartEnum.Utf8Json: [![NuGet](https://img.shields.io/nuget/v/Ardalis.SmartEnum.Utf8Json.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.Utf8Json)[![NuGet](https://img.shields.io/nuget/dt/Ardalis.SmartEnum.Utf8Json.svg)](https://www.nuget.org/packages/Ardalis.SmartEnum.Utf8Json)![publish SmartEnum.Utf8Json to nuget](https://github.com/ardalis/SmartEnum/workflows/publish%20SmartEnum.Utf8Json%20to%20nuget/badge.svg)
+SmartEnum.Utf8Json: [![NuGet](https://img.shields.io/nuget/v/OpenSmartEnum.Utf8Json.svg)](https://www.nuget.org/packages/OpenSmartEnum.Utf8Json)[![NuGet](https://img.shields.io/nuget/dt/OpenSmartEnum.Utf8Json.svg)](https://www.nuget.org/packages/OpenSmartEnum.Utf8Json)
 
 ## Give a Star! :star:
 
@@ -80,34 +77,34 @@ The framework is provided as a set of NuGet packages. In many cases you'll only 
 To install the minimum requirements:
 
 ```
-Install-Package Ardalis.SmartEnum
+Install-Package OpenSmartEnum
 ```
 
 To install support for serialization, AutoFixture, EF Core, Model Binding, Guard Clauses, or Dapper, select the lines that apply:
 
 ```
-Install-Package Ardalis.SmartEnum.AutoFixture
-Install-Package Ardalis.SmartEnum.JsonNet
-Install-Package Ardalis.SmartEnum.SystemTextJson
-Install-Package Ardalis.SmartEnum.Utf8Json
-Install-Package Ardalis.SmartEnum.MessagePack
-Install-Package Ardalis.SmartEnum.ProtoBufNet
-Install-Package Ardalis.SmartEnum.EFCore
-Install-Package Ardalis.SmartEnum.ModelBinding
-Install-Package Ardalis.SmartEnum.Dapper
-Install-Package Ardalis.SmartEnum.GuardClauses
+Install-Package OpenSmartEnum.AutoFixture
+Install-Package OpenSmartEnum.JsonNet
+Install-Package OpenSmartEnum.SystemTextJson
+Install-Package OpenSmartEnum.Utf8Json
+Install-Package OpenSmartEnum.MessagePack
+Install-Package OpenSmartEnum.ProtoBufNet
+Install-Package OpenSmartEnum.EFCore
+Install-Package OpenSmartEnum.ModelBinding
+Install-Package OpenSmartEnum.Dapper
+Install-Package OpenSmartEnum.GuardClauses
 ```
 
 ## Version
 
-The latest version of the package supports .NET 6, .NET 7, .NET 8, and .NET Standard 2.0. (`Ardalis.SmartEnum.EFCore` targets .NET 6, 7, and 8 only.)
+Version 10.0.0 supports .NET 10, .NET 11, and .NET Standard 2.0. (`OpenSmartEnum.EFCore` targets .NET 10 and .NET 11.)
 
 ## Usage
 
-Define your smart enum by inheriting from `SmartEnum<TEnum>` where `TEnum` is the type you're declaring. For [example](/test/SmartEnum.UnitTests/TestEnum.cs):
+Define your smart enum by inheriting from `SmartEnum<TEnum>` where `TEnum` is the type you're declaring. For [example](/test/OpenSmartEnum.UnitTests/TestEnum.cs):
 
 ```csharp
-using Ardalis.SmartEnum;
+using OpenSmartEnum;
 
 public sealed class TestEnum : SmartEnum<TestEnum>
 {
@@ -125,7 +122,7 @@ The default value type is `int` but it can be set using the second generic argum
 The string alias can also be set explicitly, where spaces are allowed.
 
 ```csharp
-using Ardalis.SmartEnum;
+using OpenSmartEnum;
 
 public sealed class TestEnum : SmartEnum<TestEnum, ushort>
 {
@@ -142,7 +139,7 @@ public sealed class TestEnum : SmartEnum<TestEnum, ushort>
 Just like regular `enum`, more than one string can be assigned to the same value but only one value can be assigned to a string:
 
 ```csharp
-using Ardalis.SmartEnum;
+using OpenSmartEnum;
 
 public sealed class TestEnum : SmartEnum<TestEnum>
 {
@@ -173,7 +170,7 @@ Inheritance can be used to add "behavior" to a smart enum.
 This example adds a `BonusSize` property, avoiding the use of the `switch` typically used with regular enums:
 
 ```csharp
-using Ardalis.SmartEnum;
+using OpenSmartEnum;
 
 public abstract class EmployeeType : SmartEnum<EmployeeType>
 {
@@ -228,7 +225,7 @@ public class Employee
 This other example implements a *state machine*. The method `CanTransitionTo()` returns `true` if it's allowed to transition from current state to `next`; otherwise returns `false`.
 
 ```csharp
-using Ardalis.SmartEnum;
+using OpenSmartEnum;
 
 public abstract class ReservationStatus : SmartEnum<ReservationStatus>
 {
@@ -696,14 +693,14 @@ builder.Entity<PolicyStatus>(e =>
 });
 ```
 
-Instances that EF Core loads this way are new objects, not the static fields. They compare equal with `==` and `Equals` (equality is by `Value`), but not with `ReferenceEquals`. See [issue #103](https://github.com/ardalis/SmartEnum/issues/103) for more background.
+Instances that EF Core loads this way are new objects, not the static fields. They compare equal with `==` and `Equals` (equality is by `Value`), but not with `ReferenceEquals`. See [issue #103](https://github.com/bandoyer/OpenSmartEnum/issues/103) for more background.
 
 #### Using SmartEnum.EFCore
 
-EF Core 6 introduced pre-convention model configuration which allows value conversions to be configured for specific types within a model. If you have installed `Ardalis.SmartEnum.EFCore` it is sufficient to add the following line at the beginning of the `ConfigureConventions` method:
+EF Core 6 introduced pre-convention model configuration which allows value conversions to be configured for specific types within a model. If you have installed `OpenSmartEnum.EFCore` it is sufficient to add the following line at the beginning of the `ConfigureConventions` method:
 
 ```csharp
-using Ardalis.SmartEnum.EFCore; // was SmartEnum.EFCore before 9.0
+using OpenSmartEnum.EFCore; // was SmartEnum.EFCore before 9.0
 
 protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)
 {
@@ -726,7 +723,7 @@ protected override void OnModelCreating(ModelBuilder modelBuilder)
 
 ## AutoFixture support
 
-New instances of a `SmartEnum` should not be created. Instead, references to the existing ones should always be used. [AutoFixture](https://github.com/AutoFixture/AutoFixture) by default doesn't know how to do this. The `Ardalis.SmartEnum.AutoFixture` package includes a specimen builder for `SmartEnum`. Simply add the customization to the `IFixture` builder:
+New instances of a `SmartEnum` should not be created. Instead, references to the existing ones should always be used. [AutoFixture](https://github.com/AutoFixture/AutoFixture) by default doesn't know how to do this. The `OpenSmartEnum.AutoFixture` package includes a specimen builder for `SmartEnum`. Simply add the customization to the `IFixture` builder:
 
 ```csharp
 var fixture = new Fixture()
@@ -737,11 +734,11 @@ var smartEnum = fixture.Create<TestEnum>();
 
 ## Guard Clauses support
 
-The `Ardalis.SmartEnum.GuardClauses` package adds a `SmartEnumOutOfRange` extension to [Ardalis.GuardClauses](https://github.com/ardalis/GuardClauses). It returns the matching `SmartEnum` instance for a value, or throws a `SmartEnumNotFoundException` if there isn't one:
+The `OpenSmartEnum.GuardClauses` package adds a `SmartEnumOutOfRange` extension to [OpenGuardClauses](https://github.com/bandoyer/OpenGuardClauses). It returns the matching `SmartEnum` instance for a value, or throws a `SmartEnumNotFoundException` if there isn't one:
 
 ```csharp
-using Ardalis.GuardClauses;
-using Ardalis.SmartEnum.GuardClauses;
+using OpenGuardClauses;
+using OpenSmartEnum.GuardClauses;
 
 public void UpdateStatus(int statusValue)
 {
@@ -764,10 +761,10 @@ See the [package README](src/SmartEnum.GuardClauses/README.md) for more details.
 When serializing a `SmartEnum` to JSON, only one of the properties (`Value` or `Name`) should be used. 
 
 ### Json<span></span>.Net
-[Json.NET](https://www.newtonsoft.com/json) by default doesn't know how to do this. The `Ardalis.SmartEnum.JsonNet` package includes a couple of converters to achieve this. Simply use the attribute [JsonConverterAttribute](https://www.newtonsoft.com/json/help/html/T_Newtonsoft_Json_JsonConverter.htm) to assign one of the converters to the `SmartEnum` to be de/serialized. The converters have the same names as the System.Text.Json ones shown below, in the `Ardalis.SmartEnum.JsonNet` namespace.
+[Json.NET](https://www.newtonsoft.com/json) by default doesn't know how to do this. The `OpenSmartEnum.JsonNet` package includes a couple of converters to achieve this. Simply use the attribute [JsonConverterAttribute](https://www.newtonsoft.com/json/help/html/T_Newtonsoft_Json_JsonConverter.htm) to assign one of the converters to the `SmartEnum` to be de/serialized. The converters have the same names as the System.Text.Json ones shown below, in the `OpenSmartEnum.JsonNet` namespace.
 
 ### System<span></span>.Text<span></span>.Json
-[System.Text.Json](https://learn.microsoft.com/en-us/dotnet/api/system.text.json?view=net-8.0) by default doesn't know how to do this. The `Ardalis.SmartEnum.SystemTextJson` package includes a couple of converters to achieve this. Simply use the attribute [JsonConverterAttribute](https://learn.microsoft.com/en-us/dotnet/api/system.text.json.serialization.jsonconverterattribute?view=net-8.0) to assign one of the converters to the `SmartEnum` to be de/serialized:
+[System.Text.Json](https://learn.microsoft.com/en-us/dotnet/api/system.text.json?view=net-8.0) by default doesn't know how to do this. The `OpenSmartEnum.SystemTextJson` package includes a couple of converters to achieve this. Simply use the attribute [JsonConverterAttribute](https://learn.microsoft.com/en-us/dotnet/api/system.text.json.serialization.jsonconverterattribute?view=net-8.0) to assign one of the converters to the `SmartEnum` to be de/serialized:
 
 ```csharp
 public class TestClass
@@ -807,10 +804,10 @@ Note: The SmartFlagEnum works identically to the SmartEnum when being Serialized
 
 ## Model Binding support
 
-The `Ardalis.SmartEnum.ModelBinding` package lets ASP.NET Core MVC bind `SmartEnum` action parameters and model properties from route values, query strings, and form fields. Register the binder provider when adding controllers:
+The `OpenSmartEnum.ModelBinding` package lets ASP.NET Core MVC bind `SmartEnum` action parameters and model properties from route values, query strings, and form fields. Register the binder provider when adding controllers:
 
 ```csharp
-using Ardalis.SmartEnum.ModelBinding;
+using OpenSmartEnum.ModelBinding;
 
 builder.Services.AddControllers(options =>
 {
@@ -940,15 +937,6 @@ public class ExampleModel
 }
 ```
 
-## Examples in the Real World
+## Releases
 
-- [Race](https://github.com/peaklims/PeakLimsApi/blob/main/PeakLims/src/PeakLims/Domain/Races/Race.cs)
-
-[Search for more](https://github.com/search?l=C%23&q=Ardalis.SmartEnum&type=Code)
-
-## References
-
-- [Listing Strongly Typed Enum Options in C#](https://ardalis.com/listing-strongly-typed-enum-options-in-c)
-- [Enum Alternatives in C#](https://ardalis.com/enum-alternatives-in-c)
-- [Smarter Enumerations (podcast episode)](https://www.weeklydevtips.com/014)
-- [Persisting a Smart Enum with Entity Framework Core](https://blog.nimblepros.com/blogs/persisting-a-smart-enum-with-entity-framework-core/)
+[CHANGELOG.md](CHANGELOG.md) lists each version's changes and breaking changes.

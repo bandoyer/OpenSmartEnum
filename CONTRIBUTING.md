@@ -1,4 +1,4 @@
-# Contributing to Ardalis.SmartEnum
+# Contributing to OpenSmartEnum
 
 We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
 
@@ -18,29 +18,31 @@ Mostly. But pretty much exclusively for non-maintainers. You'll need to fork the
 1. Fork the repo and create your branch from `main`.
 2. If you've added code that should be tested, add tests.
 3. If you've changed APIs, update the documentation.
-4. Ensure the test suite passes.
+4. Ensure the test suite passes (`dotnet test --configuration Release`).
 5. Make sure your code lints.
 6. Issue that pull request!
 
-- [Pull Request Check List](https://ardalis.com/github-pull-request-checklist/)
-- [Resync your fork with this upstream repo](https://ardalis.com/syncing-a-fork-of-a-github-repository-with-upstream/)
-
 ## Ask before adding a pull request
 
-You can just add a pull request out of the blue if you want, but it's much better etitquette (and more likely to be accepted) if you open a new issue or comment in an existing issue stating you'd like to make a pull request.
+You can just add a pull request out of the blue if you want, but it's much better etiquette (and more likely to be accepted) if you open a new issue or comment in an existing issue stating you'd like to make a pull request.
 
 ## Getting Started
 
-Look for [issues marked with 'help wanted'](https://github.com/ardalis/SmartEnum/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) to find good places to start contributing.
+Look for [issues marked with 'help wanted'](https://github.com/bandoyer/OpenSmartEnum/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) to find good places to start contributing.
 
 ## Any contributions you make will be under the MIT Software License
 
-In short, when you submit code changes, your submissions are understood to be under the same [MIT License](http://choosealicense.com/licenses/mit/) that covers this project.
+In short, when you submit code changes, your submissions are understood to be under the same [MIT License](LICENSE) that covers this project.
 
-## Report bugs using Github's [issues](https://github.com/ardalis/SmartEnum/issues)
+## Report bugs using GitHub's [issues](https://github.com/bandoyer/OpenSmartEnum/issues)
 
-We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/ardalis/SmartEnum/issues/new/choose); it's that easy!
+We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/bandoyer/OpenSmartEnum/issues/new/choose); it's that easy!
 
-## Sponsor us
+## Releasing
 
-If you don't have the time or expertise to contribute code, you can still support us by [sponsoring](https://github.com/sponsors/ardalis).
+The maintainer releases. `<Version>` in `Directory.Build.props` sets the version for all 11 packages, so it must match the release.
+
+1. Run the "Release to NuGet" workflow by hand from the Actions tab. It builds, tests, and packs all packages at `main`, pushes nothing, and keeps the packages as the run's `packages` artifact.
+2. Publish a GitHub release whose tag is the version, such as `v10.0.0`. The same workflow runs again and pushes all packages to nuget.org.
+
+The push uses [NuGet trusted publishing](https://learn.microsoft.com/nuget/nuget-org/trusted-publishing), so the repo stores no NuGet key. It needs a trusted publishing policy on nuget.org for this repo and the workflow file `release.yml`, and the repo variable `NUGET_USER` set to the nuget.org username that owns the packages.

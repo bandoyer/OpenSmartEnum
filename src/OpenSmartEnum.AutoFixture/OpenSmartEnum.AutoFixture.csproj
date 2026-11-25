@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<PackageId>OpenSmartEnum.AutoFixture</PackageId>
+		<Title>OpenSmartEnum.AutoFixture</Title>
+		<Description>AutoFixture support for OpenSmartEnum.</Description>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<Summary>AutoFixture support for OpenSmartEnum.</Summary>
+		<PackageTags>enum;smartenum;autofixture</PackageTags>
+		<PackageReleaseNotes>
+      The change log and breaking changes are listed here.
+      https://github.com/bandoyer/OpenSmartEnum/blob/main/CHANGELOG.md
+    </PackageReleaseNotes>
+		<AssemblyName>OpenSmartEnum.AutoFixture</AssemblyName>
+		<RootNamespace>OpenSmartEnum.AutoFixture</RootNamespace>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="AutoFixture" />
+		<PackageReference Include="System.Text.RegularExpressions" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\OpenSmartEnum\OpenSmartEnum.csproj" />
+	</ItemGroup>
+</Project>

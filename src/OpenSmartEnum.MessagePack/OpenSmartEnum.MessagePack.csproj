@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<PackageId>OpenSmartEnum.MessagePack</PackageId>
+		<Title>OpenSmartEnum.MessagePack</Title>
+		<Description>MessagePack (de)serialization support for OpenSmartEnum.</Description>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<Summary>MessagePack (de)serialization support for OpenSmartEnum.</Summary>
+		<PackageTags>enum;smartenum;messagepack;resolver</PackageTags>
+		<PackageReleaseNotes>
+      The change log and breaking changes are listed here.
+      https://github.com/bandoyer/OpenSmartEnum/blob/main/CHANGELOG.md
+    </PackageReleaseNotes>
+		<AssemblyName>OpenSmartEnum.MessagePack</AssemblyName>
+		<RootNamespace>OpenSmartEnum.MessagePack</RootNamespace>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="MessagePack" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\OpenSmartEnum\OpenSmartEnum.csproj" />
+	</ItemGroup>
+</Project>

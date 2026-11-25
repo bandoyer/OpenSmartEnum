@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<PackageId>OpenSmartEnum</PackageId>
+		<Title>OpenSmartEnum</Title>
+		<Description>Classes to help produce strongly typed smarter enums in .NET.</Description>
+		<Summary>Classes to help produce strongly typed smarter enums in .NET.</Summary>
+		<PackageTags>enum;smartenum</PackageTags>
+		<PackageReleaseNotes>
+      The change log and breaking changes are listed here.
+      https://github.com/bandoyer/OpenSmartEnum/blob/main/CHANGELOG.md
+    </PackageReleaseNotes>
+		<AssemblyName>OpenSmartEnum</AssemblyName>
+		<PackageReadmeFile>readme-nuget.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)'=='Debug'">
+		<DefineConstants>TRACE;DEBUG</DefineConstants>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Folder Include="Properties\PublishProfiles\" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\readme-nuget.md" Link="readme-nuget.md">
+		  <Pack>True</Pack>
+		  <PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+	<ItemGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+	  <PackageReference Include="System.ComponentModel.Annotations" />
+	</ItemGroup>
+</Project>

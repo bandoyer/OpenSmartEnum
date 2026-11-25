@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<PackageId>OpenSmartEnum.Utf8Json</PackageId>
+		<Title>OpenSmartEnum.Utf8Json</Title>
+		<Description>Utf8Json (de)serialization support for OpenSmartEnum.</Description>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<Summary>Utf8Json (de)serialization support for OpenSmartEnum.</Summary>
+		<PackageTags>enum;smartenum;json;utf8json;resolver</PackageTags>
+		<PackageReleaseNotes>
+      The change log and breaking changes are listed here.
+      https://github.com/bandoyer/OpenSmartEnum/blob/main/CHANGELOG.md
+    </PackageReleaseNotes>
+		<AssemblyName>OpenSmartEnum.Utf8Json</AssemblyName>
+		<RootNamespace>OpenSmartEnum.Utf8Json</RootNamespace>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Utf8Json" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\OpenSmartEnum\OpenSmartEnum.csproj" />
+	</ItemGroup>
+</Project>
